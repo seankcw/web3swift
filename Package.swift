@@ -19,7 +19,7 @@ let package = Package(
         .target(name: "w3secp256k1"),
         .target(
             name: "Web3Core",
-            dependencies: ["BigInt", "w3secp256k1", "CryptoSwift"]
+            dependencies: ["BigInt", "secp256k1", "CryptoSwift"]
         ),
         .target(
             name: "web3swift",
