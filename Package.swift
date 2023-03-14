@@ -23,7 +23,7 @@ let package = Package(
         ),
         .target(
             name: "web3swift",
-            dependencies: ["Web3Core", "BigInt", "web3swiftsecp256k1"],
+            dependencies: ["Web3Core", "BigInt", "secp256k1"],
             resources: [
                 .copy("./Browser/browser.js"),
                 .copy("./Browser/browser.min.js"),
